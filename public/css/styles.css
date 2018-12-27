@@ -1,0 +1,70 @@
+/* DigiMarketing Solutions */
+
+/* General
+----------  */
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-width: 100%;
+  background-color: #f8f8f8;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 14px;
+  text-rendering: auto;
+}
+
+ul {list-style: none;}
+a {text-decoration: none; color: inherit;}
+
+/* Reusable
+----------- */
+
+.flex { display: flex; }
+.flexc { display: flex; flex-direction: column; }
+.wrap { flex-wrap: wrap; }
+
+/* Header
+_________ */
+header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header__logo {
+  width: 100px;
+  height: auto;
+  min-height: 100px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.header__name {
+  font-family: 'Calligraffitti';
+  padding: 10px;
+}
+
+/* Navigation
+------------- */
+.nav {
+  margin-right: 20px;
+}
+
+.nav__li {
+  margin: 0 10px;
+}
+
+/* Footer
+--------- */
+footer {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+}
