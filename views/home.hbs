@@ -1,10 +1,150 @@
 {{> header}}
-
-<div class="home">
+<!-- Home page's body -->
+<div class="home flexc">
+<!-- Banner section -->
   <div class="banner flexc">
     <h2 class="banner__text">Pregúntanos como impulsar tu negocio</h2>
-    <button class="banner__btn" type="button" name="button">Digitalízate</button>
+    <button class="banner__btn btn" type="button" name="banner-btn">
+      <a href="#">¡Digitalízate!</a>
+    </button>
   </div>
-</div>
+<!-- Information section -->
+  <div class="info flex">
+<!-- Marketing Digital info -->
+    <div class="info__item flexc">
+      <h3 class="info__title">¿Qué es el Marketing digital?</h3>
+      <p class="info__text">
+        Es la combinación de estrategias de comunicación aplicadas a medios digitales, que permite impulsar y posicionar cualquier tipo de empresa, producto o marca. El Marketing Digital te ayuda a incrementar tus ventas y a medir tus resultados de manera precisa. Te ayudamos a definir objetivos y a crear todo un plan de marketing digital enfocado a resultados.
+      </p>
+    </div>
+<!-- Marketing Digital benefits info -->
+    <div class="info__item flexc">
+      <h3 class="info__title">Beneficios del Marketing digital</h3>
+      <p class="info__text">
+        <ul class="info__ul">
+          <li>Conocer las necesidades especificas de tus usuarios.</li>
+          <li>Aumentar tu visibilidad buscadores</li>
+          <li>Incrementar tus ventas y potenciar tu conversión online.</li>
+          <li>Captar clientes potenciales.</li>
+          <li>Mejorar la comunicación con tus clientes.</li>
+          <li>Obtener resultados medibles.</li>
+        </ul>
+      </p>
+    </div>
+  </div><!-- Information section -->
+<!-- Services section -->
+  <div class="services flex wrap">
+<!-- Service 1 -->
+    <div class="services__item services__item--black flexc">
+      <a class="services__icon" href="#"><i class="ion-code"></i></a>
+      <h3 class="services__title">Desarrollo Web</h3>
+      <p class="services__text">
+        Diseñamos y desarrollamos tu Página Web personalizada
+      </p>
+    </div>
+<!-- Services 2 -->
+    <div class="services__item services__item--red flexc">
+      <a class="services__icon" href="#"><i class="ion-arrow-graph-up-right"></i></a>
+      <h3 class="services__title">Marketing Digital</h3>
+      <p class="services__text">
+        Creamos estrategias para posicionar tu negocio digitalmente
+      </p>
+    </div>
+<!-- Services 3 -->
+    <div class="services__item services__item--gray flexc">
+      <a class="services__icon" href="#"><i class="ion-chatbubble-working"></i></a>
+      <h3 class="services__title">Redes Sociales</h3>
+      <p class="services__text">
+        Te ayudamos a acercarte a tus clientes actuales y potenciales
+      </p>
+    </div>
+<!-- Service 4 -->
+    <div class="services__item services__item--purple flexc">
+      <a class="services__icon" href="#"><i class="ion-ios-search-strong"></i></a>
+      <h3 class="services__title">SEO</h3>
+      <p class="services__text">
+        Aumentamos la visibilidad de tu negocio en motores de búsqueda
+      </p>
+    </div>
+<!-- Service 5 -->
+    <div class="services__item services__item--purple flexc">
+      <a class="services__icon" href="#"><i class="ion-social-usd"></i></a>
+      <h3 class="services__title">SEM</h3>
+      <p class="services__text">
+        Promocionamos tus productos o servicios y medimos tus resultados
+      </p>
+    </div>
+<!-- Service 6 -->
+    <div class="services__item services__item--gray flexc">
+      <a class="services__icon" href="#"><i class="ion-android-phone-portrait"></i></a>
+      <h3 class="services__title">Diseño Responsivo</h3>
+      <p class="services__text">
+        Adaptamos tu Página Web a dispositivos móviles y tablets
+      </p>
+    </div>
+<!-- Service 7 -->
+    <div class="services__item services__item--red flexc">
+      <a class="services__icon" href="#"><i class="ion-ios-email"></i></a>
+      <h3 class="services__title">Email Marketing</h3>
+      <p class="services__text">
+        Construimos campañas efectivas por medio del correo electrónico
+      </p>
+    </div>
+<!-- Service 8 -->
+    <div class="services__item services__item--black flexc">
+      <a class="services__icon" href="#"><i class="ion-ios-cloud-upload"></i></a>
+      <h3 class="services__title">Hosting</h3>
+      <p class="services__text">
+        Mantenemos tu Página Web disponible para tus clientes 24/7
+      </p>
+    </div>
+  </div><!-- Services section -->
+  <!-- Contact Us -->
+  <div class="contact flex">
+    <div class="form">
+      <form class="flexc">
+        <div class="form__title">
+          <h3>Contáctanos</h3>
+        </div>
+        <div class="form__field flex">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" placeholder="Ingresa tu nombre completo" required>
+        </div>
+        <div class="form__field flex">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+        </div>
+        <div class="form__field flex">
+          <label for="phone">Teléfono</label>
+          <input type="text" name="phone" placeholder="Ingresa tu número de teléfono">
+        </div>
+        <div class="form__field flex">
+          <label for="message">Mensaje</label>
+          <textarea name="message" rows="8"></textarea>
+        </div>
+        <div class="form__field flex">
+          <label for="submit">&nbsp;</label>
+          <input type="submit" name="submit" class="form__btn btn">
+        </div>
+      </form>
+    </div>
+    <!-- Form text and info about us -->
+    <div class="form__info flexc">
+      <div class="form__title">
+        <h3>Háblanos de tu negocio</h3>
+      </div>
+      <div class="form__text">
+        <h3>¡Queremos escucharte!</h3>
+        <p>
+          Envíanos tus datos y cuéntanos que tan alto quieres llegar, conoce los beneficios de digitalizarte con una asesoría gratuita de 1 hora
+        </p>
+        <ul class="form__ul">
+          <li>204 Lake Diamon Avenue, Ocala, FL, US</li>
+          <li><a href="mailto:info@digimarketingsolutions.co">info@digimarketingsolutions.co</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div><!-- Home page's body -->
 
 {{> footer}}
