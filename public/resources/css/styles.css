@@ -23,6 +23,9 @@ body {
 
 ul {list-style: none;}
 a {text-decoration: none; color: inherit;}
+*:focus {
+  outline: none;
+}
 
 /* Reusable
 ----------- */
@@ -288,6 +291,8 @@ header {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  font-size: 100%;
+
 }
 
 .form__btn {

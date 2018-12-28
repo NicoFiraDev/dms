@@ -1,4 +1,20 @@
 $(document).ready(function(){
+// Submit form
+$('#contact-form').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url:'/home',
+        type:'post',
+        data:$('#contact-form').serialize(),
+        success:function(){
+          $('#contact-form input[type=text]').val('');
+          $('#contact-form input[type=email]').val('');
+          $('#contact-form textarea').val('');
+          alert('Mensaje recibido, nos pondremos en contacto pronto!');
+        }
+    });
+});
+
 // Scroll on buttons
   $('.js--scroll-to-contact').click(function(){
     $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
