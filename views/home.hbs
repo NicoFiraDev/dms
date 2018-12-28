@@ -1,10 +1,10 @@
 {{> header}}
 <!-- Home page's body -->
-<div class="home flexc">
+<div class="home flexc js--section-home" id="home">
 <!-- Banner section -->
   <div class="banner flexc">
     <h2 class="banner__text">Pregúntanos como impulsar tu negocio</h2>
-    <button class="banner__btn btn" type="button" name="banner-btn">
+    <button class="banner__btn btn js--scroll-to-contact" type="button" name="banner-btn">
       <a href="#">¡Digitalízate!</a>
     </button>
   </div>
@@ -33,7 +33,7 @@
     </div>
   </div><!-- Information section -->
 <!-- Services section -->
-  <div class="services flex wrap">
+  <div class="services flex wrap" id="services">
 <!-- Service 1 -->
     <div class="services__item services__item--black flexc">
       <a class="services__icon" href="#"><i class="ion-code"></i></a>
@@ -100,7 +100,7 @@
     </div>
   </div><!-- Services section -->
   <!-- Contact Us -->
-  <div class="contact flex">
+  <div class="contact flex js--section-contact" id="contact">
     <div class="form">
       <form class="flexc">
         <div class="form__title">
@@ -124,7 +124,7 @@
         </div>
         <div class="form__field flex">
           <label for="submit">&nbsp;</label>
-          <input type="submit" name="submit" class="form__btn btn">
+          <input type="submit" name="submit" value="Enviar" class="form__btn btn">
         </div>
       </form>
     </div>
@@ -140,11 +140,45 @@
         </p>
         <ul class="form__ul">
           <li>204 Lake Diamon Avenue, Ocala, FL, US</li>
-          <li><a href="mailto:info@digimarketingsolutions.co">info@digimarketingsolutions.co</a></li>
+          <li><b><a href="mailto:info@digimarketingsolutions.co">info@digimarketingsolutions.co</a></b></li>
         </ul>
       </div>
     </div>
-  </div>
+  </div><!-- Contact Us -->
+<!-- Our work -->
+  <div class="our-work flexc" id="our-work">
+    <div class="our-work__title">
+      <h3>Nuestro trabajo</h3>
+    </div>
+    <div class="our-work__grid flex wrap">
+<!-- El Anunciante FL -->
+      <div class="our-work__item">
+        <a href="http://elanunciantefl.com" target="_blank">
+          <img src="/resources/img/el-anunciante.png" alt="El Anunciante">
+          <h3>El Anunciante FL</h3>
+        </a>
+      </div>
+<!-- Adulto Posmoderno -->
+      <div class="our-work__item">
+        <a href="http://adultoposmoderno.com" target="_blank">
+          <img src="/resources/img/adulto-posmoderno.png" alt="Adulto Posmoderno">
+          <h3>Adulto Posmoderno</h3>
+        </a>
+      </div>
+<!-- Arte Impreso Integral -->
+      <div class="our-work__item">
+        <a href="http://arteimpresointegral.com" target="_blank">
+          <img src="/resources/img/arte-impreso.png" alt="Arte Impreso Integral">
+          <h3>Arte Impreso Integral</h3>
+        </a>
+      </div>
+    </div><!-- Our work grid -->
+    <div class="our-team flex">
+      <div class="our-tema__item">
+
+      </div>
+    </div>
+  </div><!-- Our work -->
 </div><!-- Home page's body -->
 
 {{> footer}}

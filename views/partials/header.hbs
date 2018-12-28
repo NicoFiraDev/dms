@@ -2,6 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- Favicon section -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/vendors/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/vendors/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/vendors/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/vendors/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/vendors/favicon/safari-pinned-tab.svg" color="#6d1241">
+    <link rel="shortcut icon" href="/vendors/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/vendors/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon section -->
     <title>{{title}} | DMS</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,900i">
     <link rel="stylesheet" href="/vendors/css/ionicons.min.css">
@@ -9,27 +20,53 @@
   </head>
   <body>
     <header class="flex">
-      <!-- Logo and company's name -->
+<!-- Logo and company's name -->
       <div class="header flex">
-        <img src="/resources/img/logo.png" alt="DigiMarketing Solutions" class="header__logo">
-        <h1 class="header__name">DigiMarketing Solutions</h1>
+        <a href="#home"><img src="/resources/img/logo.png" alt="DigiMarketing Solutions" class="header__logo"></a>
+        <a href="#home"><h1 class="header__name">Digi Marketing Solutions</h1></a>
       </div>
-      <!-- Social media menu -->
+<!-- Social media menu -->
       <div class="social--header">
         <ul class="social__ul flex">
-          <li class="social__li"><a href="#"><i class="ion-social-facebook fb"></i></a></li>
-          <li class="social__li"><a href="#"><i class="ion-social-instagram ins"></i></a></li>
-          <li class="social__li"><a href="#"><i class="ion-social-googleplus gl"></i></a></li>
-          <li class="social__li"><a href="#"><i class="ion-social-skype sk"></i></a></li>
-          <li class="social__li"><a href="#"><i class="ion-social-linkedin in"></i></a></li>
+<!-- Facebook -->
+          <li class="social__li">
+            <a href="https://www.facebook.com/DigiMarketingSolutionsCO/" target="_blank">
+              <i class="ion-social-facebook fb"></i>
+            </a>
+          </li>
+<!-- Instagram -->
+          <li class="social__li">
+            <a href="https://www.instagram.com/digimarketingsolutionsco/" target="_blank">
+              <i class="ion-social-instagram ins"></i>
+            </a>
+          </li>
+<!-- Google+ -->
+          <li class="social__li">
+            <a href="https://plus.google.com/108955739545346131659" target="_blank">
+              <i class="ion-social-googleplus gl"></i>
+            </a>
+          </li>
+<!-- Skype -->
+          <li class="social__li">
+            <a href="https://join.skype.com/invite/NEND18bfX6CN" target="_blank">
+              <i class="ion-social-skype sk"></i>
+            </a>
+          </li>
+<!-- LinkedIn -->
+          <li class="social__li">
+            <a href="https://www.linkedin.com/company/digi-marketing-solutions-co" target="_blank">
+              <i class="ion-social-linkedin in"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      <!-- Navigation bar -->
+<!-- Navigation bar -->
       <nav role="navigation" class="nav">
         <ul class="nav__ul flex">
-          <li class="nav__li"><a href="#">Inicio</a></li>
-          <li class="nav__li"><a href="#">Servicios</a></li>
-          <li class="nav__li"><a href="#">Contáctanos</a></li>
+          <!-- <li class="nav__li"><a href="#home">Inicio</a></li> -->
+          <li class="nav__li"><a href="#services">Servicios</a></li>
+          <li class="nav__li"><a href="#contact">Contáctanos</a></li>
+          <li class="nav__li"><a href="#our-work">Nuestro Trabajo</a></li>
         </ul>
       </nav>
     </header>
